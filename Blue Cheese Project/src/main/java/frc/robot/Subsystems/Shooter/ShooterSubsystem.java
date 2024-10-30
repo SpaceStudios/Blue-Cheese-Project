@@ -8,8 +8,13 @@ import edu.wpi.first.wpilibj2.command.SubsystemBase;
 
 public class ShooterSubsystem extends SubsystemBase {
   /** Creates a new ShooterSubsystem. */
+  ShooterIO io;
   public ShooterSubsystem() {
      
+  }
+
+  public static void SetShooterVolts(double Volts) {
+    
   }
 
   @Override
