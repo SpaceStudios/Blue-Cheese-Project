@@ -14,4 +14,8 @@ public interface ShooterIO {
         public double shooterOutput = 0.0;
         public double feederOutput = 0.0;
     }
+
+public abstract void setFeederVolts(double volts);
+public abstract void setShooterVolts(double volts);
+public abstract void getData(ShooterData data);
 }
